@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+    padding: 100px 0;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Section Headings */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* About Section */
+#about ul {
+    padding-left: 20px;
+}
+
+#about li {
+    margin-bottom: 8px;
+}
+
+/* Skill Cards */
+.skill-card {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+}
+
+.progress {
+    height: 25px;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    font-weight: bold;
+}
+
+/* Project Cards */
+#projects .card {
+    transition: 0.3s;
+}
+
+#projects .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Achievement Cards */
+#achievements .card {
+    transition: 0.3s;
+}
+
+#achievements .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+/* Contact Form */
+form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* Buttons */
+.btn-primary {
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #212529;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+}
